@@ -18,9 +18,7 @@ class RepublicaCelular extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         brightness: Brightness.light,
       ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark
-      ),
+      darkTheme: ThemeData(brightness: Brightness.dark),
       themeMode: ThemeMode.light,
       home: const HomeScreen(),
     );
