@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class DesktopLayout extends StatefulWidget {
   const DesktopLayout({Key? key}) : super(key: key);
@@ -74,7 +75,7 @@ class _DesktopLayoutState extends State<DesktopLayout> {
           FloatingActionButton(
             backgroundColor: Colors.white,
             onPressed: () {
-              setState(() {});
+              GoRouter.of(context).go('/perfil');
             },
             child: const Icon(Icons.account_circle_rounded),
           ),
